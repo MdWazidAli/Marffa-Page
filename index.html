@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marrfa Search Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Marrfa Blog Search</h1>
+      </header>
+
+      <main>
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for articles..."
+          />
+          <button id="searchButton">Search</button>
+        </div>
+
+        <div class="filters">
+          <label>
+            <input type="checkbox" id="filterPopular" /> Popular Posts
+          </label>
+          <label>
+            <input type="checkbox" id="filterRecent" /> Recent Posts
+          </label>
+        </div>
+
+        <div id="results"></div>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
